@@ -20,7 +20,7 @@ springboot-chart:
         paths:
           - backend:
               serviceName: springboot-test-springboot-chart
-              servicePort: 8080
+              servicePort: 80
             path: /
             pathType: ImplementationSpecific
 
