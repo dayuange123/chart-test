@@ -1,2 +1,8 @@
-mychart:
-  test: 我是测试
+springboot-chart:
+  image:
+    repository: registry.cn-hangzhou.aliyuncs.com/test-lzy/test
+    pullPolicy: IfNotPresent
+    # Overrides the image tag whose default is the chart appVersion.
+    tag: "v3"
+  imagePullSecrets:
+    - name: docker-config-secret
