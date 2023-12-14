@@ -18,6 +18,10 @@ springboot-chart:
     hosts:
       - host: chart-example.local
         paths:
-          - path: /
+          - backend:
+              serviceName: springboot-chart
+              servicePort: 80
+            path: /
             pathType: ImplementationSpecific
+
     tls: [ ]
