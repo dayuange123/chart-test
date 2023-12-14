@@ -10,7 +10,7 @@ springboot-chart:
     type: ClusterIP
     port: 80
   ingress:
-    enabled: true
+    enabled: false
     className: "nginx"
     annotations: {}
       # kubernetes.io/ingress.class: nginx
