@@ -4,8 +4,8 @@ springboot-chart:
     pullPolicy: IfNotPresent
     # Overrides the image tag whose default is the chart appVersion.
     tag: "2023-12-15-10-23-10"
-#  imagePullSecrets:
-#    - name: docker-pull-ali
+  imagePullSecrets:
+    - name: docker-pull-ali-v2
   service:
     type: ClusterIP
     port: 80
