@@ -1,9 +1,9 @@
 springboot-chart:
   image:
-    repository: registry.ap-southeast-1.aliyuncs.com/aliyun-zkx/hub
+    repository: registry.ap-southeast-1.aliyuncs.com/aliyun-zkx/secret-party-user
     pullPolicy: IfNotPresent
     # Overrides the image tag whose default is the chart appVersion.
-    tag: "2023-12-15-10-23-10"
+    tag: "v3"
   imagePullSecrets:
     - name: docker-pull-ali-v2
   service:
