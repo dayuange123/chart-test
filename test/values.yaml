@@ -5,7 +5,7 @@ springboot-chart:
     # Overrides the image tag whose default is the chart appVersion.
     tag: "v100"
   imagePullSecrets:
-    - name: docker-pull-ali-v2
+    - name: docker-pull-ali
   service:
     type: ClusterIP
     port: 80
